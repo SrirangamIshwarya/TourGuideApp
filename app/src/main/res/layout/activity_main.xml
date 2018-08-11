@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:tabMode="fixed" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/numbers">
+        <TextView
+            android:id="@+id/museums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/numbers"
+            android:padding="@dimen/margin4"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size1" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colors">
+        <TextView
+            android:id="@+id/parks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colors"
+            android:padding="@dimen/margin4"
+            android:text="@string/name1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size1" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/phrases">
+        <TextView
+            android:id="@+id/restaurants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/phrases"
+            android:padding="@dimen/margin4"
+            android:text="@string/name2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size1" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/family">
+        <TextView
+            android:id="@+id/temples"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/family"
+            android:padding="@dimen/margin4"
+            android:text="@string/name3"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size1" />
+    </FrameLayout>
+</LinearLayout>

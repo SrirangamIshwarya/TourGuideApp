@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="name">Museums</string>
+    <string name="name1">Parks</string>
+    <string name="name2">Restaurants</string>
+    <string name="name3">Temples</string>
+    <string name="Museumplace1">NationalMuseum</string>
+    <string name="Museumplace2">ChhatrapatiShivajiMuseum</string>
+    <string name="Museumplace3">IndianMuseum</string>
+    <string name="Museumplace4">SalarJungMuseum</string>
+    <string name="Museumaddr1">Janpath Road, New Delhi, Delhi\n110011</string>
+    <string name="Museumaddr2">Mumbai, Maharashtra\n400023</string>
+    <string name="Museumaddr3"> Park Street, Kolkata \n700016. W.B.</string>
+    <string name="Museumaddr4">Hyderabad, Telangana \n500002</string>
+    <string name="Parkplace1">JimCorbettNationalPark</string>
+    <string name="Parkplace2">BandhavgarhNationalPark</string>
+    <string name="Parkplace3">PeriyarNationalPark</string>
+    <string name="Parkplace4">KazirangaNationalPark</string>
+    <string name="Parkaddr1">Ramnagar, Uttarakhand\n244715</string>
+    <string name="Parkaddr2">Bandhavgarh, Madhya Pradesh\n484661</string>
+    <string name="Parkaddr3">Kerala,India\n456001</string>
+    <string name="Parkaddr4"> Kanchanjuri, Assam\n784177</string>
+    <string name="Restaurantplace1">IndianAccentRestaurant</string>
+    <string name="Restaurantplace2">VillaMayaHeritageRestaurant</string>
+    <string name="Restaurantplace3">ThalassaRestaurant</string>
+    <string name="Restaurantplace4">KhyberRestaurant</string>
+    <string name="Restaurantaddr1">Pragati Vihar, New Delhi, Delhi\n110003</string>
+    <string name="Restaurantaddr2">Thiruvananthapuram, Kerala\n695008</string>
+    <string name="Restaurantaddr3">Vagator, Goa\n403509</string>
+    <string name="Restaurantaddr4">Mumbai, Maharashtra\n400001</string>
+    <string name="Templeplace1">ThirupatiTemple</string>
+    <string name="Templeplace2">BadrinathTemple</string>
+    <string name="Templeplace3">KonarkSunTemple</string>
+    <string name="Templeplace4">BrihadisvaraTemple</string>
+    <string name="Templeaddr1">Tirupati, Andhra Pradesh\n517504</string>
+    <string name="Templeaddr2">Badrinath, Uttarakhand\n246422</string>
+    <string name="Templeaddr3">Konark, Odisha\n752111</string>
+    <string name="Templeaddr4"> Thanjavur, Tamil Nadu\n613007</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
